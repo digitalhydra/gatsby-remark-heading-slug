@@ -1,10 +1,10 @@
-# gatsby-remark-slug
+# gatsby-remark-heading-slug
 
 Add slug `id` to h1~h6 elements.
 
 ## Install
 
-`npm install --save gatsby-remark-slug`
+`npm install --save gatsby-remark-heading-slug`
 
 ## How to use
 
@@ -14,16 +14,9 @@ plugins: [
   {
     resolve: `gatsby-transformer-remark`,
     options: {
-      plugins: [`gatsby-remark-slug`],
+      plugins: [`gatsby-remark-heading-slug`],
     },
   },
 ]
 ```
 
-### Options
-
-TBD.
-
-## Reference
-
-- [Gatsby Plugin Boilerplate](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-remark-smartypants)
